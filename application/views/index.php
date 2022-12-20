@@ -1,6 +1,7 @@
 <main id="main" class="main">
 
   <div class="row">
+    <!-- Index Halaman -->
     <div class="col-lg-2 ">
       <div class="card ">
         <div class="card-body">
@@ -73,20 +74,23 @@
         </div>
       </div>
     </div>
+
+    <!-- Isi Halaman -->
     <div class="col-lg-10">
       <section class="section">
-        <!-- Slides with captions -->
+
+        <!-- Hero/Carousel = Front -->
         <div id="carouselExampleCaptions" class="carousel slide pb-3 carousel-fade" data-bs-ride="carousel" id="1">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="assets/img/slides-1.jpg" class="d-block w-100" alt="..." style="height: 300px; object-fit:cover">
+              <img src="assets/img/galeri-7.jpg" class="d-block w-100" alt="..." style="height: 300px; object-fit:cover">
               <div class="carousel-caption d-none d-md-block">
                 <h3>HSMC Regional Jawa Barat</h3>
                 <p>Komunitas Pecinta Motor Honda Supra Lintas Generasi.</p>
               </div>
             </div>
             <div class="carousel-item active">
-              <img src="assets/img/slides-2.jpg" class="d-block w-100" alt="..." style="height: 300px; object-fit:cover">
+              <img src="assets/img/galeri-8.jpg" class="d-block w-100" alt="..." style="height: 300px; object-fit:cover">
               <div class="carousel-caption d-none d-md-block">
                 <h3>Deal Sparepart!</h3>
                 <p>Cari Kebutuhan Sparepart Supra Anda Disini!</p>
@@ -106,6 +110,7 @@
           </div><!-- End Slides with captions -->
         </div>
 
+        <!-- Artikel -->
         <div class="card mt-4" id="2">
           <div class="card-body">
             <h4 class="card-title">Artikel Terbaru</h4>
@@ -113,49 +118,51 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-4.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/artikel-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
-                    <h5 class="card-title ">Bakti Sosial NATARU 2022</h5>
+                    <h5 class="card-title ">Scoopy, CRF150L, CB600 Sampai Supra X Bisa Remap ECU, Siap Budget Segini</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-4.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/artikel-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
-                    <h5 class="card-title ">Bakti Sosial NATARU 2022</h5>
+                    <h5 class="card-title ">Scoopy, CRF150L, CB600 Sampai Supra X Bisa Remap ECU, Siap Budget Segini</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-4.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/artikel-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
-                    <h5 class="card-title ">Bakti Sosial NATARU 2022</h5>
+                    <h5 class="card-title ">Scoopy, CRF150L, CB600 Sampai Supra X Bisa Remap ECU, Siap Budget Segini</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-4.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/artikel-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
-                    <h5 class="card-title ">Bakti Sosial NATARU 2022</h5>
+                    <h5 class="card-title ">Scoopy, CRF150L, CB600 Sampai Supra X Bisa Remap ECU, Siap Budget Segini</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
+              
 
             </div>
           </div>
         </div>
 
+        <!-- Kegiatan -->
         <div class="card" id="3">
           <div class="card-body">
             <h4 class="card-title">Kegiatan HSMC</h4>
@@ -163,49 +170,51 @@
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-3.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/kegiatan-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
                     <h5 class="card-title ">Jambore Regional Jawa Barat</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-3.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/kegiatan-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
                     <h5 class="card-title ">Jambore Regional Jawa Barat</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-3.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/kegiatan-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
                     <h5 class="card-title ">Jambore Regional Jawa Barat</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
               <div class="col">
                 <div class="card ">
-                  <img src="<?= base_url(); ?>assets/img/news-3.jpg" class="card-img-top " alt="...">
+                  <img src="<?= base_url(); ?>assets/img/kegiatan-1.jpg" class="card-img-top " alt="...">
                   <div class="card-body">
                     <h5 class="card-title ">Jambore Regional Jawa Barat</h5>
                     <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
                   </div>
-                  <a href="#" class="btn btn-primary card-footer">Selengkapnya</a>
+                  <a href="<?= base_url(); ?>pages/artikel" class="btn btn-primary card-footer">Selengkapnya</a>
                 </div>
               </div>
+              
 
             </div>
           </div>
         </div>
 
+        <!-- Galeri Foto -->
         <div class="card" id="4">
           <div class="card-body">
             <h4 class="card-title">Galeri Foto</h4>
@@ -217,7 +226,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-1.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-1.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -227,7 +236,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-1.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-2.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -237,7 +246,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-1.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-3.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -247,7 +256,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-1.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-4.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -257,7 +266,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-1.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-5.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -274,7 +283,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-2.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-6.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -284,7 +293,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-2.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-7.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -294,7 +303,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-2.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-8.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -304,7 +313,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-2.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-4.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -314,7 +323,7 @@
                       <div class="">
                         <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                          <img src="assets/img/slides-2.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
+                          <img src="assets/img/galeri-2.jpg" alt="Profile" class="mb-2 rounded" style="height:120px; width: 180px; object-fit:cover">
                           <!-- <h5>Web Designer</h5> -->
                           <!-- <h6>Retro Restorasi</h6> -->
                         </div>
@@ -327,14 +336,7 @@
                 </div>
               </div>
 
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              
 
             </div>
 
@@ -344,7 +346,7 @@
           </div>
         </div>
 
-
+        <!-- Klien dan Member -->
         <div class="card" id="5">
           <div class="card-body">
             <h4 class="card-title">Klien dan Member</h4>
@@ -354,7 +356,7 @@
                 <div class="">
                   <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                    <img src="assets/img/messages-1.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:cover">
+                    <img src="<?=base_url();?>assets/img/logo.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:contain">
                     <!-- <h5>Web Designer</h5> -->
                     <h6>Retro Restorasi</h6>
                   </div>
@@ -364,9 +366,9 @@
                 <div class="">
                   <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                    <img src="assets/img/messages-1.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:cover">
+                    <img src="<?=base_url();?>assets/img/logo.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:contain">
                     <!-- <h5>Web Designer</h5> -->
-                    <h6>Retro Restorasi</h6>
+                    <h6>Supra Lovers</h6>
                   </div>
                 </div>
               </div>
@@ -374,9 +376,9 @@
                 <div class="">
                   <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                    <img src="assets/img/messages-1.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:cover">
+                    <img src="<?=base_url();?>assets/img/logo.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:contain">
                     <!-- <h5>Web Designer</h5> -->
-                    <h6>Retro Restorasi</h6>
+                    <h6>SLC Cimahi</h6>
                   </div>
                 </div>
               </div>
@@ -384,9 +386,9 @@
                 <div class="">
                   <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                    <img src="assets/img/messages-1.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:cover">
+                    <img src="<?=base_url();?>assets/img/logo.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:contain">
                     <!-- <h5>Web Designer</h5> -->
-                    <h6>Retro Restorasi</h6>
+                    <h6>FJB Supra</h6>
                   </div>
                 </div>
               </div>
@@ -394,12 +396,14 @@
                 <div class="">
                   <div class="card-body profile-card pt-3 d-flex flex-column align-items-center">
 
-                    <img src="assets/img/messages-1.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:cover">
+                    <img src="<?=base_url();?>assets/img/logo.jpg" alt="Profile" class="mb-2 rounded" style="height:100px; width: 180px; object-fit:contain">
                     <!-- <h5>Web Designer</h5> -->
-                    <h6>Retro Restorasi</h6>
+                    <h6>Supra Bengkel</h6>
                   </div>
                 </div>
               </div>
+              
+              
 
 
             </div>

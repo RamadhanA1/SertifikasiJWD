@@ -1,6 +1,7 @@
 <main id="main" class="main">
 
     <div class="row">
+        <!-- Index Halaman -->
         <div class="col-lg-2">
             <div class="card">
                 <div class="card-body">
@@ -51,29 +52,40 @@
                 </div>
             </div>
         </div>
+
+        <!-- Isi halaman -->
         <div class="col-lg-10">
             <section class="section contact">
                 <div class="row gy-4">
+                    
+                    <!-- Layout Kiri -->
                     <div class="col-xl-6">
                         <div class="row">
+                            <!-- Alamat -->
                             <div class="col-lg-6">
                                 <div class="info-box card"> <i class="bi bi-geo-alt"></i>
                                     <h3>Alamat</h3>
                                     <p>Jl. Patriot Raya, No.99,<br>Bandung, Jawa Barat</p>
                                 </div>
                             </div>
+
+                            <!-- Telepon -->
                             <div class="col-lg-6">
                                 <div class="info-box card"> <i class="bi bi-telephone"></i>
                                     <h3>Telepon</h3>
                                     <p>021-7918-7676<br>0892-1239-2391</p>
                                 </div>
                             </div>
+
+                            <!-- email -->
                             <div class="col-lg-6">
                                 <div class="info-box card"> <i class="bi bi-envelope"></i>
                                     <h3>Email</h3>
                                     <p>hsmcjw_official@gmail.com<br>humas_hsmc3@gmail.com</p>
                                 </div>
                             </div>
+
+                            <!-- jam Kerja -->
                             <div class="col-lg-6">
                                 <div class="info-box card"> <i class="bi bi-clock"></i>
                                     <h3>Jam Kerja</h3>
@@ -82,6 +94,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Layout Kanan = Form -->
                     <div class="col-xl-6">
                         <div class="card p-4">
                             <form action="forms/contact.php" method="post" class="php-email-form">

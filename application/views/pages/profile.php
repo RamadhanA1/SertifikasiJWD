@@ -1,6 +1,7 @@
 <main id="main" class="main">
 
   <div class="row">
+    <!-- Index Halaman -->
     <div class="col-lg-2">
       <div class="card">
         <div class="card-body">
@@ -37,30 +38,32 @@
         </div>
       </div>
     </div>
+
+    <!-- Isi Halaman -->
     <div class="col-lg-10">
 
+      <!-- Tentang Club -->
       <div class="card" id="1">
         <div class="card-body">
           <h5 class="card-title">Tentang HSMC Jawa Barat </h5>
           <!-- <p>This is an examle page with no contrnt. You can use it as a starter for your custom pages.</p> -->
           <div class="clearfix">
-            <img src="<?= base_url(); ?>assets/img/slides-3.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+            <img src="<?= base_url(); ?>assets/img/logo.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
 
             <p>
-              A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-            </p>
-
-            <p>
-              As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-            </p>
-
-            <p>
-              And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+              Komunitas ini mulai terbentuk berawal dari sekumpulan mahasiswa yang gemar merestorasi Honda Supra berbagai jenis, mulai dari Honda Supra X 2004, Supra Fit 2005, dll. 
+              Disamping hobi restorasi tersebut, mereka biasa touring mengitari Jawa Barat. Selama touring, banyak yang juga tertarik dalam hobi restorasi Honda Supra ini sehingga diprakasai Pembentukan Honda Supra Motor Club Region Jawa Barat pada tahun 2014.
+              <br><br>
+              Dalam menjalankan komunitas, kami mulai mengembangkan bisnis dalam merestorasi dengan mulai bekerja sama dengan Retro Restorasi.
+              Lambat laun, akhirnya kami mulai mengembangkan bisnis juga dalam memperbaiki Honda Supra.
+              <br><br>
+              Pada tahun 2017, komunitas ini sudah memiliki 100 member, dan dalam mengembangakan komunitas ini, maka kami juga membuka jasa penyewaan kendaraan Honda supra untuk digunakan atau di pajang dalam rangka mengenalkan Honda Supra ikonik ini ke Masyarakat.
             </p>
           </div>
         </div>
       </div>
 
+      <!-- Pengalaman Keja -->
       <div class="card" id="2">
         <div class="card-body">
           <h5 class="card-title">Pengalaman Kerja</h5>
@@ -99,6 +102,7 @@
         </div>
       </div>
 
+      <!-- Kelebihan -->
       <div class="card" id="3">
         <div class="card-body">
           <h5 class="card-title">Kelebihan Kami</h5>
@@ -122,6 +126,12 @@
                   3
                 </th>
                 <td>Telah melayani pesanan baik tingkat provinsi dan nasional</td>
+              </tr>
+              <tr>
+                <th scope="row" class="mb-2 bg-success rounded d-flex justify-content-center align-items-center " style="color: white;">
+                  4
+                </th>
+                <td>Perbaikan dan Perawatan Kendaraan oleh Mekanik Handal</td>
               </tr>
               
             </tbody>

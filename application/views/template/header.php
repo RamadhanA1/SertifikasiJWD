@@ -42,18 +42,23 @@
 
     <!-- ======= Header ======= -->
     <header id="header" class=" row header fixed-top d-flex align-items-center">
+        <!-- Layout Logo Komunitas -->
         <div class="col-lg-2 d-flex justify-content-center">
-            <img class="" src="<?= base_url(); ?>assets/img/logo.png" alt="" style="height: 80px; width:fit-content">
+            <img class="" src="<?= base_url(); ?>assets/img/logo.jpg" alt="" style="height: 100px; width:fit-content">
         </div>
+
+        <!-- Layout Nama dan Navbar -->
         <div class="col-lg-10 row">
+            <!-- Nama Komunitas -->
             <div class="col-lg-12 pt-2 d-flex align-items-center justify-content-center ">
                 <a href="<?= base_url(); ?>index.html" class="logo d-flex align-items-center">
                     <!-- <img src="<?= base_url(); ?>assets/img/logo.png" alt=""> -->
-                    <span class="d-none d-lg-block">Honda Supra Motor Club Region Jawa Barat</span>
+                    <span class="d-none d-lg-block text-black">Honda Supra Motor Club Region Jawa Barat</span>
                 </a>
                 <!-- <i class="bi bi-list toggle-sidebar-btn"></i> -->
-            </div><!-- End Logo -->
+            </div>
 
+            <!-- Navbar -->
             <div class="col-lg-12 pt-2">
                 <nav class="navbar navbar-expand-lg navbar-light bg-transparent d-flex align-items-center justify-content-center">
                     <div class="collapse navbar-collapse" id="navbarCollapse">
